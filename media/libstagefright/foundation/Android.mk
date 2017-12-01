@@ -34,6 +34,7 @@ LOCAL_SHARED_LIBRARIES := \
         libpowermanager
 
 LOCAL_CFLAGS += -Wno-multichar -Werror -Wall
+LOCAL_CPPFLAGS += -Wno-address-of-packed-member
 LOCAL_CLANG := true
 LOCAL_SANITIZE := unsigned-integer-overflow signed-integer-overflow
 
